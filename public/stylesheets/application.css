@@ -1,0 +1,179 @@
+body {
+  background-color: white;
+  color: #333333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eeeeee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: black; }
+  a:visited {
+    color: #666666; }
+  a:hover {
+    color: white;
+    background-color: black; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #errorExplanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #cc0000;
+    color: white; }
+  #errorExplanation p {
+    color: #333333;
+    margin-bottom: 0;
+    padding: 5px; }
+  #errorExplanation ul li {
+    font-size: 12px;
+    list-style: square; }
+
+form {
+  background: #eeeeee; }
+  form li {
+    padding: 10px 0px; }
+    form li li {
+      padding: 0; }
+  form fieldset {
+    margin-top: 20px; }
+  form li fieldset {
+    padding: 0; }
+  form legend, form label {
+    color: #333333; }
+  form label, form .label {
+    padding-bottom: 5px; }
+    form label abbr, form .label abbr {
+      color: red; }
+  form label {
+    line-height: 1.4em;
+    font-size: 13px; }
+  form legend span {
+    font-size: 1.4em;
+    line-height: 1em; }
+    form legend span.label {
+      font-size: 1em; }
+  form select {
+    padding: 3px; }
+  form input, form textarea, form select {
+    font-family: inherit;
+    font-size: 14px; }
+  form textarea, form input {
+    border: 1px solid #999999;
+    padding: 6px 8px;
+    line-height: 100%; }
+  form .date li, form .time li, form .datetime li {
+    margin: 0 0.3em 0 0; }
+  form #errorExplanation li {
+    margin-left: 15px; }
+  form form p, form .errors {
+    padding: 3px 0px; }
+  form .required input, form .required textarea, form .required select {
+    background-color: white; }
+  form .error input, form .error textarea, form .error select {
+    background-color: #ffcccc;
+    border: 1px solid #ff6666; }
+  form .optional input, form .optional textarea, form .optional select {
+    background-color: white; }
+  form .errors {
+    color: #aa0000; }
+    form .errors li {
+      margin-left: 1.2em; }
+  form p.inline-errors {
+    color: red; }
+  form p.inline-hints {
+    color: #777777; }
+  form .buttons {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px; }
+    form .buttons li {
+      padding-right: 0.5em; }
+    form .buttons input {
+      border: 1px solid #999999; }
+
+body {
+  background-color: #4b7399;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px; }
+
+a {
+  color: blue; }
+  a img {
+    border: none; }
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px; }
+
+#flash_notice,
+#flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0; }
+
+#flash_notice {
+  background-color: #ccffcc;
+  border: solid 1px #66cc66; }
+
+#flash_alert {
+  background-color: #ffcccc;
+  border: solid 1px #cc6666; }
+
+.fieldWithErrors {
+  display: inline; }
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #cf0000;
+  padding: 0;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #errorExplanation h2 {
+    text-align: left;
+    padding: 5px 5px 5px 15px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #cc0000;
+    color: white; }
+  #errorExplanation p {
+    color: #333333;
+    margin-bottom: 0;
+    padding: 8px; }
+  #errorExplanation ul {
+    margin: 2px 24px; }
+    #errorExplanation ul li {
+      font-size: 12px;
+      list-style: disc; }
