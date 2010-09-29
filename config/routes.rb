@@ -46,6 +46,20 @@ ActionController::Routing::Routes.draw do |map|
     admin.root :controller => "AdminHome"
     admin.resources :admins
   end
+  map.subdomain nil do |main|
+    main.root :controller => "home"
+    main.resources :users
+  end
+  map.subdomain nil do |main|
+    main.root :controller => "home"
+    main.resources :users do |users|
+      users.resources :subdomains, :except => [:edit, :show], :shallow => true
+    end
+  end
+  map.subdomain :model => :site, :namespace => nil do |site|
+    site.root :controller => "sites", :action => "show"
+    site.resources :sites, :only => [:index, :show]
+  end
 
 
   map.root :controller => "home"

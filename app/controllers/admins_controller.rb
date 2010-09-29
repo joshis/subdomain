@@ -10,7 +10,8 @@ class AdminsController < InheritedResources::Base
       paginate_options ||= {}
       paginate_options[:page] ||= (params[:page] || 1)
       paginate_options[:per_page] ||= (params[:per_page] || 20)
-      @admins ||= end_of_association_chain.paginate(paginate_options)
+      @admins ||= end_of_association_chain#.paginate(paginate_options)
+      
     end
 
 end
