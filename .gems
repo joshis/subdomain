@@ -6,5 +6,5 @@ devise --version '1.0.3' --source http://gemcutter.org
 inherited_resources --version '1.0.3' --source http://gemcutter.org
 subdomain_routes --version '>= 0.3.1' --source http://gemcutter.org
 friendly_id --version '>= 2.2.7' --source http://gemcutter.org
-"nifty-generators" '>= 0.3.1' --source http://gemcutter.org
-"dry_scaffold" '>=0.3.8' --source http://gemcutter.org
+nifty-generators '>= 0.3.1' --source http://gemcutter.org
+dry_scaffold '>=0.3.8' --source http://gemcutter.org

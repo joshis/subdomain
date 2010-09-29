@@ -1,0 +1,29 @@
+%h1.heading
+  = "Editing admin %s" % @admin.id
+
+- semantic_form_for(@admin, :url => { :controller => 'admins', :action => 'update' }) do |form|
+  = render 'form', :form => form
+  - form.buttons do
+    = form.commit_button 'Update'
+
+%p.actions
+  = link_to 'Cancel', admin_admins_path
+
+app/views/admins/index.html.haml
+
+%h1.heading
+  = "Admins"
+
+%p.actions
+  = link_to 'New Admin', new_admin_admin_path
+
+%table
+  %thead.header
+    %tr
+      %th.name= 'Name'
+      %th.actions= 'Actions'
+  %tbody.items.admins
+    - @admins.each do |admin|
+      = render 'item', :admin => admin
+
+= will_paginate(@admins)
